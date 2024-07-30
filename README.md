@@ -31,9 +31,9 @@
 
 <!--- CI Reports -->
 <p align="center">
-    <a href="https://github.com/autowarefoundation/autoware/actions/workflows/build-main.yaml?query=branch%3Amain">
-        <img src="https://img.shields.io/github/actions/workflow/status/autowarefoundation/autoware/build-main.yaml?style=flat&label=build-main"
-            alt="Build Main CI" /></a>
+    <a href="https://github.com/autowarefoundation/autoware/actions/workflows/health-check.yaml?query=branch%3Amain">
+        <img src="https://img.shields.io/github/actions/workflow/status/autowarefoundation/autoware/health-check.yaml?style=flat&label=health-check"
+            alt="health-check CI" /></a>
     <a href="https://app.codecov.io/gh/autowarefoundation/autoware.universe">
         <img src="https://img.shields.io/codecov/c/gh/autowarefoundation/autoware.universe?style=flat&label=Coverage&logo=codecov&logoColor=white"
             alt="Code Coverage" /></a>
@@ -98,3 +98,4 @@ If you wish to use Autoware.AI, the previous version of Autoware based on ROS 1,
 
 - [Autoware Foundation homepage](https://www.autoware.org/)
 - [Support guidelines](https://autowarefoundation.github.io/autoware-documentation/main/support/support-guidelines/)
+- [CI metrics](https://autowarefoundation.github.io/autoware-ci-metrics/)
