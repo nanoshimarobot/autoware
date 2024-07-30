@@ -27,7 +27,7 @@ repositories:
   # universe
   universe/autoware.universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
+    url: https://github.com/nanoshimarobot/autoware.universe.git
     version: main
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
@@ -96,10 +96,14 @@ repositories:
     url: https://github.com/MapIV/transport_drivers.git
     version: boost
   # sensor_kit
-  sensor_kit/sample_sensor_kit_launch:
+  sensor_kit/aip_launcher:
     type: git
-    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: main
+    url: https://github.com/tier4/aip_launcher
+    version: tier4/universe
+#  sensor_kit/sample_sensor_kit_launch:
+#    type: git
+#    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
+#    version: main
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
@@ -117,8 +121,17 @@ repositories:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
     version: main
+  vehicle/jpntaxi_description:
+    type: git
+    url: git@github.com:tier4/jpntaxi_description.git
+    version: main
+#    version: 6d3a5ce336693c616182e92415913575aae8d10c
   # param
+#  param/autoware_individual_params:
+#    type: git
+#    url: https://github.com/autowarefoundation/autoware_individual_params.git
+#    version: main
   param/autoware_individual_params:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
-    version: main
+    url: git@github.com:tier4/autoware_individual_params.jpntaxi.git
+    version: 2b47e57eedcd408aef2f8b6651bd2f1dc0d4a61b
